@@ -1,0 +1,12 @@
+config:
+  auth:
+    json: |
+      {}
+  folder_id: ""
+
+existed_secret_name: ""
+
+image:
+  pullPolicy: IfNotPresent
+  repository: cr.yandex/yc-marketplace/yandex-cloud/externaldns/externaldns
+  tag: ""
